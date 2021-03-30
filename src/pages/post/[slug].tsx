@@ -146,6 +146,6 @@ export const getStaticProps: GetStaticProps = async context => {
     props: {
       post,
     },
-    redirect: 60 * 60 * 24, // 24 hours
+    revalidate: 60 * 60 * 24, // 24 hours
   };
 };
